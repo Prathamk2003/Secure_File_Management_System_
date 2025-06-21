@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background-color: #3667B9 !important; /* A distinct blue for selected background */
+  color: #ffffff !important; /* White text for contrast */
+}
+::-moz-selection {
+  background-color: #3667B9 !important;
+  color: #ffffff !important;
+}
+
+.dark ::selection {
+  background-color: #3667B9 !important; /* A distinct blue for selected background in dark mode */
+  color: #ffffff !important; /* White text for contrast in dark mode */
+}
+
+.dark ::-moz-selection {
+  background-color: #3667B9 !important;
+  color: #ffffff !important;
+} 
