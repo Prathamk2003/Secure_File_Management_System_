@@ -32,7 +32,8 @@ cd backend && npm install && cd ..
 # Terminal 1: Backend
 cd backend && node server.js
 
-# Terminal 2: Frontend  
+# Terminal 2: Frontend
+cd src
 npm start
 ```
 
